@@ -1,9 +1,9 @@
 # gearbox-loss-calculation-ev
 Python tool for calculating loss maps of traction gearboxes in electric commercial vehicles, developed as part of a Master’s thesis at RWTH Aachen University.  Topics:  python  gearbox  electric-vehicles  ev  loss-calculation  engineering  automotive  master-thesis
 
-==========================================
+
 Gearbox Sizing and Losses Estimation Tool
-==========================================
+=============================
 
 This repository contains the final version of the Python code developed for a Master’s Thesis in Industrial Engineering. 
 The project focuses on the development of a Python-based tool designed to calculate loss maps and other characteristic parameters for traction gearboxes used in electric commercial vehicles. By enabling scalable and precise simulations of gearbox characteristics, this tool will facilitate the efficient design of various drive concepts. Streamlining the simulation and sizing processes will empower manufacturers and engineers to explore and evaluate different gearbox configurations, supporting the development of optimized electric drivetrains that meet the unique requirements of commercial vehicle applications. Ultimately, this work will contribute to accelerating the transition to sustainable transportation within the commercial vehicle sector.
