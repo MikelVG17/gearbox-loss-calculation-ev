@@ -1,0 +1,74 @@
+{
+    "material_strength": 400,
+    "security_factor": 2.5,
+    "configurations": {
+        "Validation_document_configuration": {
+            "gear_stages": [
+                {"type": "ratio", "ratio": 2.4, "realisation": "SG", "operation": "", "gear_type": "helical"},
+                {"type": "ratio", "ratio": 2.44, "realisation": "SG", "operation": "", "gear_type": "helical"}
+            ],
+            "N_open_friction_elements": 0,
+            "N_open_dog_clutches": 0,
+            "N_open_synchronisation_gaps": 0,
+            "N_differential_cages": 1,
+            "N_planetary_carriers": 0,
+            "N_bearings": 2,
+            "N_oil_pumps": 1,
+            "number_of_stages": 2,
+            "speeds": 1,
+            "output_torque": 136.21,
+            "RPM_range": 512
+        },
+        "truck_exemplification": {
+            "gear_stages": [
+                {"type": "shift", "ratios": [3.1, 3.8], "realisation": "PGS", "operation": "1s"},
+                {"type": "ratio", "ratio": 2.64, "realisation": "SG", "operation": "", "gear_type": "helical"}
+            ],
+            "N_open_friction_elements": 2,
+            "N_open_dog_clutches": 1,
+            "N_open_synchronisation_gaps": 2,
+            "N_differential_cages": 1,
+            "N_planetary_carriers": 1,
+            "N_bearings": 2,
+            "N_oil_pumps": 1,
+            "number_of_stages": 2,
+            "speeds": 2,
+            "output_torque": 2500,
+            "RPM_range": 4500
+        },
+        "low_torque_configuration": {
+            "gear_stages": [
+                {"type": "shift", "ratios": [1.5, 1.6], "realisation": "PGS", "operation": "1s"},
+                {"type": "ratio", "ratio": 1.05, "realisation": "SG", "operation": "", "gear_type": "helical"}
+            ],
+            "N_open_friction_elements": 1,
+            "N_open_dog_clutches": 1,
+            "N_open_synchronisation_gaps": 1,
+            "N_differential_cages": 1,
+            "N_planetary_carriers": 1,
+            "N_bearings": 1,
+            "N_oil_pumps": 1,
+            "number_of_stages": 2,
+            "speeds": 2,
+            "output_torque": 1,
+            "RPM_range": 3000
+        },
+        "high_torque_configuration": {
+            "gear_stages": [
+                {"type": "ratio", "ratio": 4.0, "realisation": "PGS", "operation": "1s"},
+                {"type": "ratio", "ratio": 6.0, "realisation": "SG", "operation": "", "gear_type": "helical"}
+            ],
+            "N_open_friction_elements": 3,
+            "N_open_dog_clutches": 1,
+            "N_open_synchronisation_gaps": 3,
+            "N_differential_cages": 2,
+            "N_planetary_carriers": 1,
+            "N_bearings": 2,
+            "N_oil_pumps": 2,
+            "number_of_stages": 2,
+            "speeds": 1,
+            "output_torque": 10000,
+            "RPM_range": 4000
+        }
+    }
+}
