@@ -57,3 +57,8 @@ Master Thesis:
 Author:
 -------
 Developed by Mikel Vega Godoy as part of the Master’s Thesis in Industrial Engineering (2024).
+
+
+**Full Thesis Document**  
+For further technical details, methodology, and validation results, the complete Master's Thesis is available here:  
+[📄 Read the full thesis (PDF)](./Final_Master_Thesis_ENG_PEM.pdf)
